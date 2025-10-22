@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Intro</title>
+    <!-- removed per-file styles from head so they will be included with the injected content -->
+  </head>
+  <body>
+    <main>
+      <style>
+        /* target the injected content area with higher specificity */
+        #content ul {
+          list-style: none;
+          padding: 0;
+          margin: 0 0 1rem 0;
+        }
+
+        /* gradient text (use vendor prefixes for broad support) */
+        #content ul li {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          margin: 0.35rem 0;
+          background: linear-gradient(90deg, #00d5ff, #ff3333);
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          color: transparent; /* fallback/ensure plain color doesn't show */
+        }
+
+        /* colored circular bullet */
+        #content ul li::before {
+          content: "";
+          display: inline-block;
+          width: 0.6rem;
+          height: 0.6rem;
+          margin-right: 0.5rem;
+          border-radius: 50%;
+          background: linear-gradient(90deg, #00d5ff, #ff3333);
+          flex-shrink: 0;
+        }
+      </style>
+
+      <h1>Welcome to the Story</h1>
+      <h2>Authors.</h2>
+      <ul>
+        <li>Corvid</li>
+        <li>BathTubLizz</li>
+        <li>CatWithSocks</li>
+      </ul>
+      <p>
+        our roles Corvid (me) - writer and editor and developer BathTubbLizz -
+        helper and critique partner and sometines BathTubbLizz - helper and
+        critique partner we three Me for one year Lizz for 9 months and Cat for
+        3 months have worked together to form this story into what it is today.
+        this story is also avaliable
+        <a href="https://www.honeyfeed.fm/u/28282/novels" target="_blank"
+          >Here</a
+        >
+      </p>
+      <p>our roles-</p>
+      <p>Corvid (me) - writer and editor and developer</p>
+      <p>BathTubbLizz - helper and critique partner</p>
+      <p>CatWithSocks - Critique and idea helper</p>
+      <p>we three Me for one year Lizz for 9 months and Cat for 3 months</p>
+      <p>have worked together to form this story into what it is today.</p>
+      <p>
+        me and these people made this story. we have worked tirelessly to bring
+        you this amazing experience. we hope you enjoy reading it as much as we
+        enjoyed creating it.
+      </p>
+      <p>
+        this story is also avaliable
+        <a href="https://www.honeyfeed.fm/u/28282/novels" target="_blank"
+          >Here</a
+        >
+      </p>
+      <h2>About the Story</h2>
+      <p>
+        this story is primarily about a sci-fi universe between earth and a
+        asson and USOF i hope you like it as this took a total of 1 year to
+        fully write and develop.
+      </p>
+      <p>
+        Outside of this project we have made numerouse other versions of the
+        story which are also avaliable
+        <a href="https://www.honeyfeed.fm/u/28282/novels" target="_blank"
+          >Here</a
+        >
+        we strive for excellence and we along all of the others 
+        readers hope you enjoy this story the Assonian Team-Out.
+      </p>
+    </main>
+  </body>
+</html>
